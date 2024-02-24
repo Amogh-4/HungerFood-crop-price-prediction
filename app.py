@@ -5,6 +5,8 @@ from datetime import datetime
 import random
 import requests
 
+#Reference model used - https://github.com/rahuldkjain/Crop_Prediction which was retrained with datasets
+
 app = Flask(__name__)
 
 commodity_dict = {
